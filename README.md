@@ -1,4 +1,4 @@
-# subs2srs
+# subs2srs-mono
 
 Fork of [erjiang/subs2srs](https://github.com/erjiang/subs2srs) — a tool that creates
 [Anki](https://apps.ankiweb.net/) flashcards from movies and TV shows with subtitles,
@@ -46,14 +46,14 @@ make build
 ### Arch Linux (AUR)
 
 ```sh
-yay -S subs2srs-git
+yay -S subs2srs-mono-git
 ```
 
 ### Manual
 
 ```sh
-git clone https://gitlab.com/fkzys/subs2srs.git
-cd subs2srs
+git clone https://gitlab.com/fkzys/subs2srs-mono.git
+cd subs2srs-mono
 sudo make install
 ```
 
