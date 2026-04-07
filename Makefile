@@ -51,7 +51,7 @@ install: build
 	install -dm755 $(DESTDIR)$(SYSCONFDIR)/fonts/conf.d
 	ln -sf $(PREFIX)/share/fontconfig/conf.avail/90-avoid-microsoft-sans-serif.conf \
 		$(DESTDIR)$(SYSCONFDIR)/fonts/conf.d/90-avoid-microsoft-sans-serif.conf
-	install -Dm644 gpl.txt $(DESTDIR)$(PREFIX)/share/licenses/$(pkgname)/LICENSE
+	install -Dm644 LICENSE $(DESTDIR)$(PREFIX)/share/licenses/$(pkgname)/LICENSE
 
 uninstall:
 	rm -rf $(DESTDIR)/opt/$(pkgname)/
