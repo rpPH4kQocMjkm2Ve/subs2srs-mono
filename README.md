@@ -1,6 +1,6 @@
 # subs2srs-mono
-![License](https://img.shields.io/github/license/rpPH4kQocMjkm2Ve/subs2srs-mono)
-[![Spec](https://img.shields.io/endpoint?url=https://gitlab.com/fkzys/specs/-/raw/main/version.json&maxAge=300)](https://gitlab.com/fkzys/specs)
+![License](https://img.shields.io/github/license/fkzys/subs2srs-mono)
+[![Spec](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/fkzys/specs/refs/heads/main/version.json&maxAge=300)](https://github.com/fkzys/specs)
 
 Fork of [erjiang/subs2srs](https://github.com/erjiang/subs2srs) — a tool that creates
 [Anki](https://apps.ankiweb.net/) flashcards from movies and TV shows with subtitles,
@@ -54,7 +54,7 @@ yay -S subs2srs-mono-git
 ### Manual
 
 ```sh
-git clone https://gitlab.com/fkzys/subs2srs-mono.git
+git clone https://github.com/fkzys/subs2srs-mono.git
 cd subs2srs-mono
 sudo make install
 ```
